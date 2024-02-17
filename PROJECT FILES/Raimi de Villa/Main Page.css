@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("OtherHome.png");
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+}
+
+.front-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 3rem calc((100vw - 1300px) / 2);
+}
+
+.column-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #000000;
+    padding: 0 2rem;
+}
+
+.column-left h1{
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.column-left p{
+    margin-bottom: 60px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+button{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: #faf9f6;
+    background: #101D6B;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+
+button:hover{
+    background: #468387;
+    color:#faf9f6;
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+logo{
+    width: 140px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+
+.column-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    margin-bottom: 100px;
+}
+
+.front-image{
+    width: 250%;
+    height: 150%;
+}
+
+.bottominfo{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width: 1024px){
+    .hero {
+        width: 100%;
+        min-height: 100vh;
+        background-image: url("Home.png");
+        background-position: center;
+        background-size: cover;
+        padding: 10px 10%;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 768px){
+    .front-container{
+        grid-template-columns: 1fr;
+    }
+    nav ul li{
+        display: flex;
+        list-style: none;
+        margin: 10px;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #333;
+        font-weight: 100;
+    }
+    nav{
+        padding: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}

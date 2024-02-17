@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+aside {
+    width: 25%;
+    margin-right: 2%;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside ul li a {
+    color: #4f15ee; 
+    text-decoration: none; 
+    padding: 0.5rem 1rem;
+     display: block; 
+    }
+
+    aside ul li a:hover { 
+        background-color: #3f0ec4;
+         color: #fff;
+         }
+    
+    section { 
+        width: 71%;
+     }
+    
+    section header {
+         display: flex;
+         justify-content: space-between;
+          align-items: center;
+           margin-bottom: 2rem;
+         }
+    
+    section header .profile-pic {
+         width: 5rem;
+         height: 5rem;
+          background-color: #333;
+           border-radius: 50%;
+         }
+    
+    section header .username { 
+        font-size: 1.5rem; 
+        font-weight: bold;
+         margin-left: 1rem; 
+        }
+    
+    section .date { 
+        font-size: 0.8rem;
+         color: #777; 
+        }
+    
+    section article { 
+        background-color: #f3f3f3; 
+        padding: 1rem;
+         margin-bottom: 2rem;
+         border-radius: 0.5rem;
+         }
+    
+    section .replies {
+         margin-bottom: 2rem;
+         }
+    
+    section .reply { 
+        display: flex; 
+        margin-bottom: 1rem;
+     }
+    
+    section .reply .profile-pic {
+         width: 3rem;
+          height: 3rem; 
+         background-color: #333; 
+         border-radius: 50%;
+          margin-right: 1rem;
+         }
+    
+    section .reply .username { 
+        font-size: 0.9rem; 
+        font-weight: bold;
+         margin-right: 1rem;
+         }
+    
+    section .reply .message { 
+        font-size: 0.9rem;
+     }
+    
+    section form { 
+        display: flex; 
+    }
+    
+    section form input { flex-grow: 1;
+         padding: 0.5rem;
+          border: 1px solid #333;
+           border-radius: 0.5rem;
+            margin-right: 1rem;
+         }
+    
+    section form button {
+         background-color: #3b1aaf;
+          color: #fff; 
+          padding: 0.5rem 1rem;
+           border: none; 
+           border-radius: 0.5rem;
+         }
+         img {
+            width: 120px;
+            margin: 20px;
+          }
+          
+          .clip-polygon {
+            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+          }
+          .clip-polygon {
+            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+          }
+          .clip-polygon {
+            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+          }
+          
+          body {
+            background: linear-gradient(
+              to bottom,
+              rgb(94, 149, 233),
+              rgb(240, 240, 237)
+            );
+          }
+          
+          body, html {
+            height: 100%;
+          }
